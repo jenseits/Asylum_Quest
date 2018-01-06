@@ -1,0 +1,26 @@
+{
+  "name": "asylum_quest",
+  "version": "1.0.0",
+  "description": "Asylum Quest is a text-based RPG that will take you beyond depression.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenseits/Asylum_Quest.git"
+  },
+  "author": "jenseits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenseits/Asylum_Quest/issues"
+  },
+  "homepage": "https://github.com/jenseits/Asylum_Quest#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
