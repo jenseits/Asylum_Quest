@@ -19,10 +19,12 @@ This text game will take you beyond depression : into the meandres of the rottin
 <p></p>
 <p></p>
 <button id="pushstart">Start game </button>
-  <script> onclick = "document.getElementById("pushstart").addEventListener("click", Greeting());
+<script>
+  document.getElementById("pushstart").addEventListener("click", Greeting);
 
-    function  Greeting() = {
-      document.getElementById("startgame").innerHTML ='Sorry for the long dev time, I\'m a n00b.';}
+function Greeting() {
+      document.getElementById("startgame").innerHTML = "Sorry for the long time this game takes to be developed, I'm a n00b.";
+}
 </script>
 <p></p>
 <p id="startgame"></p>
